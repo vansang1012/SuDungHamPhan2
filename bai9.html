@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kiểm tra ký tự</title>
+</head>
+<body>
+<script>
+    function checkList(a,arr) {
+        let dem=0;
+        for(let i=0;i<arr.length;i++){
+            if(a==arr[i]){
+                dem+=1;
+            }
+            return dem;
+        }
+        return -1;
+    }
+    let mang="hôm nay là thứ mấy";
+    let kyTu="h";
+    let result=checkList(kyTu,mang);
+    document.write(result);
+
+</script>
+</body>
+</html>

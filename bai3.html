@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tính giai thừa</title>
+</head>
+<body>
+<script>
+    function tinhGiaiThua(n) {
+        let giaiThua=1;
+        for (let i=1;i<=n;i++){
+            giaiThua *=i;
+        }
+        return giaiThua;
+    }
+    let input=prompt("mời bạn nhập số cần tính :");
+    let result=tinhGiaiThua(input);
+    console.log("Giai thừa là : " +result);
+
+</script>
+</body>
+</html>

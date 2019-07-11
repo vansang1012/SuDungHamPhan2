@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Diện tích chu vi hình tròn</title>
+</head>
+<body>
+<script>
+    let C=0;
+    let S=0;
+    function chuVi(r) {
+        C=2*3,14*r;
+        return C;
+    }
+    function dienTich(r) {
+        S=3.14*r*r;
+        return S;
+    }
+    let input=prompt("Mời bạn nhập vào bán kỉnh R= ");
+    let resultChuVi=chuVi(input);
+    let resultDienTich=dienTich(input);
+    console.log("Chu vi của hình tròn là: " + resultChuVi + " Diện tích hình tròn là: " + resultDienTich);
+
+</script>
+</body>
+</html>

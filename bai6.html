@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kiểm tra Nguyên Dương</title>
+</head>
+<body>
+<script>
+    let input=prompt("Mời bạn nhập vào số cần kiểm tra ");
+    function isNguyenDuong(a) {
+       if(parseInt(a)==a && a >0){
+           return true;
+       }
+       return  false;
+    }
+    let check=isNguyenDuong(input);
+    document.write(check);
+
+</script>
+</body>
+</html>

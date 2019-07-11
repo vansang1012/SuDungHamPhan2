@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let x=prompt("mời bạn nhập vào số thứ nhất:");
+    let y=prompt("Mời bạn nhập vào số thứ hai: ");
+    let z=prompt("Mời bạn nhập vào số thứ ba: ");
+let result=minSoNguyen(x,y,z);
+document.write(result);
+    function minSoNguyen(a, b, c) {
+        let min = a;
+        if (b < min) {
+            min = b;
+        } else if (min > c) {
+            min = c;
+        }
+        return min;
+    }
+
+</script>
+</body>
+</html>
